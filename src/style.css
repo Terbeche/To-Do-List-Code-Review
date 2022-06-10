@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  background: #ddd;
+}
+
+input {
+  border: none;
+}
+
+#title {
+  display: none;
+}
+
+.to-do-list {
+  background-color: white;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: white;
+}
+
+.task {
+  margin-bottom: 1rem;
+  background-color: white;
+  display: flex;
+}
+
+.task-remove {
+  margin-left: auto;
+}
+
+.task-edit {
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.task-completed {
+  margin-right: 1rem;
+}
+
+.task-description {
+  background-color: white;
+}
+
+#to-do-add {
+  color: #444;
+}
+
+#to-do-clear {
+  text-align: center;
+}
